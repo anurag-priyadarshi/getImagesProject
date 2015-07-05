@@ -4,7 +4,7 @@ from getImagesProject.items import GetimagesprojectItem
 from scrapy.spider import Spider
 from scrapy.http.request import Request
 class ImageSpider(Spider):
-    allowed_domains = ['kay.com','macys.com','costco-static.com','fredmeyerjewelers.com','jared.com','imageg.net','jcpenny.com','bluenile.com']
+    allowed_domains =[]
     name = 'imageSpider'
     start_urls =[]
     
